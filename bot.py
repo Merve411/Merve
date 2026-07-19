@@ -2,7 +2,8 @@ import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = os.environ["TOKEN"]
+TOKEN = os.environ["HTTP API:
+8622649861:AAEGLUxbWtJQeEborsxy5dBePONmpgBozmw"]
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Merhaba)
